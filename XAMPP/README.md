@@ -53,7 +53,7 @@ Now, click OK.<br><br>
 
 ### Step 4
 
-Click Next<br>
+Click Next.<br>
 
 ![UAC](img/02.png)
 
@@ -87,9 +87,10 @@ By default, it would be <br>
 
 ### Step 7
 
-If you want leave as it is and click next.<br>
-But I don't want to know more about Bitnami.<br>
-So, I am just unselecting it.<br><br>
+If you want leave as it is, it is your choice.<br>
+But, I don't want to know more about Bitnami.<br>
+So, I am just unselecting it.<br>
+Click Next.<br>
 
 ![UAC](img/05.png)
 
