@@ -1,7 +1,7 @@
 # Setup Instructions for XAMPP
 
 
-### For Windows PC
+## For Windows PC
 
 
 The instructions here is for a Windows PC. <br>
@@ -13,36 +13,66 @@ C:\xampp.
 
 <br>
 
-i) Download the Xampp application from here : https://www.apachefriends.org/index.html
-    The download size is around 150MB. 
+### Step 1
+Download the Xampp application from here : https://www.apachefriends.org/index.html <br>
+The download size is around 150MB. 
 
 <br>
 
-ii) Create a folder in C drive and name it anything you want. <br>
-    It is preferred if the maximum length of the folder is 8 characters.<br>
-    For example, I am going to name it LEO.<br>
+<hr>
 
-So, in C drive, there is a folder ARCHER.<br>
+### Step 2
+
+Create a folder in C drive and name it anything you want. <br>
+It is preferred if the maximum length of the folder is 8 characters.<br>
+For example, I am going to name it LEO.<br>
+
+So, in C drive, there is a folder with the name LEO.<br>
        
        C:\LEO
 
 <br>
 
-iii) Click on the downloaded application.<br>
+
+<hr>
+
+### Step 3
+
+
+Click on the downloaded application.<br>
         
-![UAC](img/01_warning.png)
+![UAC](img/01.png)
 
  <br>
 You might see a warning like this. This was why I told you to create the folder. <br>
 By creating our own folder, we need not worry about the permissions mentioned in that warning box.<br>
 Now, click OK.<br><br>
 
-iv) Click Next<br>
 
-![UAC](img/02_step1.png)
+<hr>
+
+### Step 4
+
+Click Next<br>
+
+![UAC](img/02.png)
 
 <br>
-v) By default, it would be <br>
+
+<hr>
+
+### Step 5
+
+Just leave all the stuff as it is and let us install everything that XAMPP can provide. <br>
+
+![UAC](img/03.png)
+
+
+<hr>
+
+### Step 6
+
+By default, it would be <br>
 
         C:\xampp
         
@@ -50,39 +80,59 @@ v) By default, it would be <br>
   
         C:\LEO\xampp
    
-  ![UAC](img/03_step2.png)
+  ![UAC](img/04.png)
 <br>
 
-vi) If you want leave as it is and click next.<br>
+<hr>
+
+### Step 7
+
+If you want leave as it is and click next.<br>
 But I don't want to know more about Bitnami.<br>
 So, I am just unselecting it.<br><br>
 
-![UAC](img/03_step3.png)
+![UAC](img/05.png)
 
 <br>
-vii) Now, click Next.<br>
-Just leave all the stuff as it is and let us install everything that XAMPP can provide. <br>
+
+<hr>
+
+### Step 8
+
+Now, click Next.<br>
 The installation will go on for 5 to 10 minutes depending on your system specifications. <br>
 
-![UAC](img/04_step4.png)
+![UAC](img/06.png)
 
 <br><br>
 
-viii) Click Finish.<br>
+<hr>
 
-![UAC](img/05_step5.png)
+### Step 9
 
-<br>
+Click Finish.<br>
 
-ix) Select English.<br>
-
-![UAC](img/06_step6.png)
+![UAC](img/07.png)
 
 <br>
 
-x) And now the Control Panel is ready.
+<hr>
 
-![UAC](img/07_step7.png)
+### Step 10
+
+Select English.<br>
+
+![UAC](img/08.png)
+
+<br>
+
+<hr>
+
+### Step 11
+
+And now the Control Panel is ready.
+
+![UAC](img/09.png)
 
 <br>
 
@@ -90,14 +140,18 @@ We will be mostly using the _Apache_ and _MySQL_ server.
 
 <br>
 
-xi) Start the Apache and MySQL servers.<br>
+<hr>
+
+### Step 12
+
+Start the Apache and MySQL servers.<br>
 You might get some message boxes like these.<br>
 
-![UAC](img/08_warning1.png)
+![UAC](img/10.png)
 
 <br>
 
-![UAC](img/08_warning2.png)
+![UAC](img/11.png)
 
 <br>
 
@@ -105,23 +159,35 @@ Just click _Allow Acess_.
 
 Now, the _Apache_ and _MySQL_ servers are up and running.
 
-![UAC](img/09_servers.png)
+![UAC](img/12.png)
 <br>
 
-xii) Click on Admin of _Apache_ server. <br>
+<hr>
+
+### Step 13
+
+Click on Admin of _Apache_ server. <br>
 If all went fine, you should be seeing something like this: <br>
 
-![UAC](img/10_apache.png)
+![UAC](img/13.png)
 
 <br>
 
-xii) Click on Admin of _MySQL_ server. <br>
+<hr>
+
+### Step 14
+
+Click on Admin of _MySQL_ server. <br>
 You will something like this: <br>
 
-![UAC](img/11_phpmyadmin.png)
+![UAC](img/14.png)
 
 <br>
 
-xiii) If one or both the servers didn't start, it might be because the same port might be used by some other application like VMWare or any other SQL servers. <br>
+<hr>
+
+### Note :
+
+If one or both the servers didn't start, it might be because the same port might be used by some other application like VMWare or any other SQL servers. <br>
 Based on experience, my advice would be not to tamper with the existing XAMPP config files. <br>
 So, change the port number of the other applications. <br>
