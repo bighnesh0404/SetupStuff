@@ -10,7 +10,7 @@ I am naming the _Installation Folder_ as _LEO_.<br>
 
 So, in C drive, there is a folder with the name LEO.<br>
 
-   C:\LEO
+      C:\LEO
 
 <br>
 
