@@ -2,7 +2,9 @@
 
 ### Step 1 
 
-Download Git for Windows from the official website : https://git-scm.com/downloads
+Download Git for Windows from the official website by clicking 
+<a href="https://git-scm.com/downloads" target="_blank">here</a>.
+
 <br>
 
 <hr>
@@ -47,7 +49,7 @@ It will look something like this :
 - [x] Only show new options
 
 Just unselect it.<br>
-Click Next.<br>
+Click _Next_.<br>
 
 ![Unselect Only show new options](img/02.png)
 
@@ -74,7 +76,7 @@ Change it to
 ### Step 6
 
 The default installation settings is fine; so leave it as it is.<br>
-Just click Next.<br>
+Just click _Next_.<br>
 
 ![Proceed](img/04.png)
 
@@ -86,7 +88,7 @@ Just click Next.<br>
 
 If you want a Folder for Git in the Start Menu, just click Next.<br>
 If you do not want it, then just select the checkbox `Dont create a Start Menu Folder`.<br>
-My advice would be, just leave stuff as it is and just click Next.<br>
+My advice would be, just leave stuff as it is and just click _Next_.<br>
 
 ![Start Menu](img/05.png)
 
@@ -96,7 +98,7 @@ My advice would be, just leave stuff as it is and just click Next.<br>
 
 ### Step 8
 
-Click Next.<br>
+Click _Next_.<br>
 
 ![Proceed Further](img/06.png)
 
