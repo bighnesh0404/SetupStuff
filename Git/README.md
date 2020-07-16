@@ -197,7 +197,7 @@ To check if it is installed, just Launch Git Bash.<br>
 
 You must be getting something similar to this.<br>
 
-![Installation](img/15.png)
+![Installation](img/16.png)
 
 <br>
 
