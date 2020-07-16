@@ -59,6 +59,8 @@ I am going to choose the Developer Mode. <br>
 
 Click _Next_. <br>
 
+<hr>
+
 ### Step 5
 
 Change the location to
@@ -69,6 +71,7 @@ Change the location to
 
 <br>
 
+<hr>
 
 ### Step 6
 
@@ -77,7 +80,8 @@ If you have added PHP to path correctly, this option would be filled like this b
 ![php](img/05.png)
 
 <br>
-Click _Next_.
+
+Click  *Next*.
 
 <br>
 
@@ -86,6 +90,7 @@ Click _Next_.
 ![php](img/06.png)
 
 <br>
+
 <hr>
 
 ### Step 7
