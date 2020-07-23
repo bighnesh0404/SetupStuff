@@ -144,6 +144,8 @@ After this, Android Studio will start.
 
 <br>
 
+<hr>
+
 ### Step 8 - Android Setup Wizard
 
 
