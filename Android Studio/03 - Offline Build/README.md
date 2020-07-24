@@ -145,4 +145,49 @@ You may now delete the _offline-android-gradle-plugin-preview.zip_ file from _.a
 
 To tell the Android build system to use the offline components you've downloaded and unzipped, you need to create a script, as described below. Keep in mind, you need to create and save this script only once, even after updating your offline components. <br>
 
+#### Step 3.1
 
+Go to *.gradle* folder. <br>
+Create a folder with the name *init.d*. <br>
+Inside that folder, create this file : _offline.gradle_ <br>
+
+
+#### Step 3.2
+
+Open that with any text editor of your choice and paste the following script inside of it. <br>
+
+```
+def reposDir = new File(System.properties['user.home'], ".android/manual-offline-m2")
+def repos = new ArrayList()
+reposDir.eachDir {repos.add(it) }
+repos.sort()
+
+allprojects {
+  buildscript {
+    repositories {
+      for (repo in repos) {
+        maven {
+          name = "injected_offline_${repo.name}"
+          url = repo.toURI().toURL()
+        }
+      }
+    }
+  }
+  repositories {
+    for (repo in repos) {
+      maven {
+        name = "injected_offline_${repo.name}"
+        url = repo.toURI().toURL()
+      }
+    }
+  }
+}
+```
+
+#### Step 3.3
+
+Save the _offline.gradle_ file.
+
+#### Step 3.4 (Totally Optional)
+
+If you’d like to verify that the offline components are working as intended, remove the online repositories from your project’s `build.gradle` files, as shown below. After you've confirmed that your project builds correctly without these repositories, you can put them back into your `build.gradle` files.
