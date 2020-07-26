@@ -145,7 +145,7 @@ Click _Finish_.
 
 To check if the installation is done properly, open command prompt and type the following. <br>
 
-        conda -v
+        conda -V
 
 <br>
 
