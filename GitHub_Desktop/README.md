@@ -1,5 +1,4 @@
-# Setting up Microsoft Visual Studio Code
-
+# Setting up GitHub Desktop
 
 ![image](img/01.png)
 
@@ -34,17 +33,5 @@
 <br>
 
 ![image](img/09.png)
-
-<br>
-
-![image](img/10.png)
-
-<br>
-
-![image](img/11.png)
-
-<br>
-
-![image](img/12.png)
 
 <br>
